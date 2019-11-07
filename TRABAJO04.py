@@ -1,4 +1,4 @@
-print("TRABAJO NRO 04")
+print("TRABAJO NRO 03")
 print("CALCULADORAS EN PYTHON")
 print("ALUMNO:CARLOS RONALDO LIZA DAMIAN")
 print("")
@@ -130,8 +130,8 @@ longitud_del_conductor,area,resistencia_electrica=0.0,0.0,0.0
 
 #CALCULADORA
 longitud_del_conductor=5000.4
-area=550.4
-resistencia_electrica=4550.4
+area=50.4
+resistencia_electrica=longitud_del_conductor/area
 
 #MOSTRAR DATOS
 print("longitud del conductor =",longitud_del_conductor,"m")
@@ -150,6 +150,7 @@ resistencia_inicial=500.5
 coeficiente_de_temperatura=5005.0
 variacion_de_temperatura=114.5
 resistencia=(resistencia_inicial+resistencia*coeficiente_de_temperatura*variacion_de_temperatura)
+
 #MOSTRAR DATOS
 print("resistencia inicial =",resistencia_inicial,"ohm")
 print("coeficiente de temperatura =",coeficiente_de_temperatura,)
@@ -166,12 +167,12 @@ intencidad_de_corriente,Variacion_de_temperatura,petencia_electrica=0.0,0.0,0.0
 #CALCULADORA
 intencidad_de_corriente=25.0
 variacion_de_temperatura=50.4
-petencia_electrica=455.5
+potencia_electrica=intencidad_de_corriente*variacion_de_temperatura
 
 #MOSTRAR DATOS
 print("intencidad de corriente =",intencidad_de_corriente,"A")
 print("variacion de temperatura =",variacion_de_temperatura,"c")
-print("Potencia electrica =",petencia_electrica,"voltios")
+print("Potencia electrica =",potencia_electrica,"voltios")
 print("")
 
 #CALCULADORA NRO11
@@ -356,6 +357,7 @@ print("ALTURA =",ALTURA,"m")
 print("ENERGIA_POTENCIAL_GRAVITACIONAL =",ENERGIA_POTENCIAL_GRAVITACIONAL,"Joule")
 print("")
 print("TRABAJO TERMINADO")
+
 
 print("")
 print("")
